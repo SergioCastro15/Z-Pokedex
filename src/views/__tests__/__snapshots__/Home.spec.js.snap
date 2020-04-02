@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component render 1`] = `
+<div
+  class="container"
+>
+  <poke-input-stub />
+   
+  <h1
+    class="mt-5"
+  >
+    
+  </h1>
+   
+  <b-button
+    block=""
+    class="my-4"
+    variant="success"
+  >
+    
+      Get a random Pokemon
+    
+  </b-button>
+   
+  <poke-card-stub
+    class="mt-5"
+  />
+   
+  <poke-abilities-stub
+    class="my-5"
+  />
+</div>
+`;

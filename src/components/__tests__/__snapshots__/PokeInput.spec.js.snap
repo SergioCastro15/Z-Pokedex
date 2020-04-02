@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokeInput component render 1`] = `
+<div>
+  <b-form-input
+    class="mt-5"
+    placeholder="Search Pokemon"
+  />
+   
+  <b-button
+    class="mt-2"
+    variant="success"
+  >
+    Search
+  
+  </b-button>
+</div>
+`;

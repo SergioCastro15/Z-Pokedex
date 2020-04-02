@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokeAbilities component render 1`] = `
+<div>
+  <b-button
+    class="mb-3"
+  >
+    Show powers
+  </b-button>
+   
+  <!---->
+</div>
+`;
