@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <poke-input
-      @triggerSearchPokemon="searchPokemon"
+      @triggerSearchPokemon="getPhotos"
     />
       <h1 class="mt-5">{{getCurrentPokemon.name}}</h1>
       <b-button
@@ -49,6 +49,9 @@ export default {
     },
     getPokemon() {
       this.$store.dispatch('getPokemon', this.getRandomPokemon());
+    },
+    getPhotos() {
+      this.$store.dispatch('getPhotos');
     },
   },
 };
